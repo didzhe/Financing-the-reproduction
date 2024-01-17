@@ -1,5 +1,4 @@
-# blogtest
-REG.RU Blog
+index.html
 <!DOCTYPE html>
 <html lang="en">
 <head>
