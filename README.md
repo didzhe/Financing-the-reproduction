@@ -5,62 +5,53 @@ REG.RU Blog
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Финансовый Сайт</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-
-        header {
-            background-color: #009688;
-            color: #fff;
-            padding: 10px;
-            text-align: center;
-        }
-
-        nav {
-            background-color: #333;
-            color: #fff;
-            padding: 10px;
-            text-align: center;
-        }
-
-        section {
-            padding: 20px;
-        }
-
-        footer {
-            background-color: #009688;
-            color: #fff;
-            padding: 10px;
-            text-align: center;
-        }
-    </style>
+    <title>Финансовый сайт</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
     <header>
-        <h1>Финансовый Сайт</h1>
+        <h1>Финансовый сайт</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#services">Услуги</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <nav>
-        <a href="#">Главная</a> |
-        <a href="#">Новости</a> |
-        <a href="#">Статьи</a> |
-        <a href="#">Контакты</a>
-    </nav>
+    <section id="home">
+        <h2>Добро пожаловать на наш финансовый сайт!</h2>
+        <!-- Здесь можно добавить дополнительный контент -->
+    </section>
 
-    <section>
-        <h2>Последние новости по финансам</h2>
-        <p>Здесь вы можете найти последние новости и обновления из мира финансов.</p>
-        <!-- Вставьте свой контент здесь -->
+    <section id="about">
+        <h2>О нас</h2>
+        <p>Мы предоставляем широкий спектр финансовых услуг для наших клиентов.</p>
+        <!-- Здесь можно добавить дополнительный контент -->
+    </section>
+
+    <section id="services">
+        <h2>Наши услуги</h2>
+        <ul>
+            <li>Инвестиции</li>
+            <li>Кредитование</li>
+            <li>Страхование</li>
+            <!-- Здесь можно добавить дополнительные услуги -->
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Контакты</h2>
+        <p>Свяжитесь с нами по адресу: finance@example.com</p>
+        <!-- Здесь можно добавить дополнительные контактные данные -->
     </section>
 
     <footer>
-        <p>&copy; 2024 Финансовый Сайт. Все права защищены.</p>
+        <p>&copy; 2024 Финансовый сайт</p>
     </footer>
+
 </body>
 </html>
